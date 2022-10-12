@@ -4,13 +4,10 @@ func maxSubArray(nums []int) int {
         if s<0{
             s=0
         }
-        s+=nums[i]
-        
+        s+=nums[i]        
         if s>smax{
             smax=s
-        }     
-        
-    }
-    
+        }        
+    }    
     return smax
 }
